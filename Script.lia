@@ -1,0 +1,11 @@
+-- [[ KUNCI SCRIPT HADIANOR ]] --
+local namaGw = "NAMA_ROBLOX_LO_DI_SINI" -- Ganti pake nama asli Roblox lo!
+
+if game.Players.LocalPlayer.Name == namaGw then
+    print("Akses Diterima! Memuat Script...")
+    -- Ini link RAW yang lo dapet tadi
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/muhammadhadianor65-hub/Haloo/refs/heads/main/Diam%20elu"))()
+else
+    -- Maling otomatis kena tendang dari game
+    game.Players.LocalPlayer:Kick("MAU NYOLONG SCRIPT HADIANOR YA?")
+end
